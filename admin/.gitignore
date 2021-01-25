@@ -140,3 +140,4 @@ cython_debug/
 migrations/
 .dbdata/
 settings.py
+docker-compose.yml
