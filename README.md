@@ -5,4 +5,4 @@ MicroShop is a platform to gauge interest in products. Admins can create, edit, 
 ![MicroShop Demo](Postman.gif)
 
 # Tech Stack
-MicroShop backend was build with Python using a microservice architecture. The admin backend is build using Django, and the public backend is build using Flask. Both backends communicate via AMQP producer/consumer messaging queue system, utilizing CloudAMQP. A MySQL instance is utilized for the datastore. Both microservices utilize Docker to build a container with the backend api, queue, and database images necessary to communicate together. 
+MicroShop backend was build with Python using a microservice architecture. The admin backend is build using Django, and the public backend is build using Flask. Both backends communicate via AMQP producer/consumer messaging queue system, utilizing RabbitMQ. A MySQL instance is utilized for the datastore. Both microservices utilize Docker to build a container with the backend api, queue, and database images necessary to communicate together. 
